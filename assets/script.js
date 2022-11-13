@@ -26,4 +26,8 @@ if (topic === 'HTML') {
   console.log(shapes[1]);
   console.log(shapes[2]);
   console.log(shapes[3]);
-  
+
+  for(var x = 0; x < shapes.length; x++){
+    console.log(shapes[x]);
+  }
+
