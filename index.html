@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -12,6 +13,7 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
+
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
@@ -26,20 +28,50 @@
       </section>
 
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h2><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></h2>
         <ul>
-          <li>Enter your CSS notes here</li>
+          <li>Each element on a wepage is essentially a box - <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">Box Model</a></a></li>
+          <li>Margin - indicates how much space we want around the outside of am element</li>
+          <li>Padding - indicates how much space we want around the content on the inside of the border of an element</li>
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
-        <ul>
+         <ul>
           <li>$ git clone git@github.com:Jacob-Jeffries/prework.git - clone a repo locally</li>
           <li>$ git status - provides the current status of our repo </li>
           <li>$ git branch - shows the current branches</li>
           <li>$ git checkout -b feature/add-html - this creates the feature branch: feature/add-html</li>
           <li>$ git pull origin main - fetch and merge any commits from the tracking remote branch</li>
+        </ul>
+        <br/>
+        <br/>
+        <h3>Jacob's Git Workflow</h3>
+        <ul>
+          <li>$ git clone <i><u>repo link</u></i></li>
+          <li>$ git checkout main</li>
+          <li>$ git pull origin main</li>
+          <li>$ git status</li>
+          <li>$ git checkout -b <i><u>feature/xxx</u></i></li>
+          <li>$ git branch</li>
+          <li>$ code .</li>
+          <li><b>CREATE & EDIT FILES</b></li>
+          <li>$ git add -A</li>
+          <li>$ git commit -m "..."</li>
+          <li>$ git pull origin main</li>
+          <li>$ git push origin <i><u>feature/xxx</u></i></li>
+          <li>Goto GitHub Browser and click <b>Pull Requests</b></li>
+          <li>Click <b>New Pull Request</b></li>
+          <li>Compare the Base Branch (main) vs the new Featrue Branch</li>
+          <li>Click <b>Create Pull Request</b></li>
+          <li>Fill out the PR form</li>
+          <li>Click <b>Create Pull Request</b></li>
+          <li>Click <b>Merge Pull Request</b> and then <b>Confirm Merge</b></li>
+          <li>$ git checkout main</li>
+          <li>$ git pull origin main</li>
+          <li>Close the issue on the GitHub Browser</li>
+          <li>Delete local repo if desired</li>
         </ul>
       </section>
    
