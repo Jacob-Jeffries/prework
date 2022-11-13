@@ -1,0 +1,40 @@
+/* the "*" selector applies to everything */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* We can combine two selectors seperated by commas*/
+/* Do not repeat yourself in adding style*/
+
+header, footer {
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    display: block; /*This has never made sense to me*/
+    height: 50px;
+    width: 50px;
+    
+    /*margin: auto will center an element*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
