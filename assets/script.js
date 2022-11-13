@@ -21,3 +21,9 @@ if (topic === 'HTML') {
   } else {
     console.log('Please try again!');
   }
+
+  console.log(shapes[0]);
+  console.log(shapes[1]);
+  console.log(shapes[2]);
+  console.log(shapes[3]);
+  
