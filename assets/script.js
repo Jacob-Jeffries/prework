@@ -22,11 +22,13 @@ if (topic === 'HTML') {
     console.log('Please try again!');
   }
 
+  console.log("Hard Coded Array iteration");
   console.log(shapes[0]);
   console.log(shapes[1]);
   console.log(shapes[2]);
   console.log(shapes[3]);
 
+  console.log("FOR loop to iterate over array");
   for(var x = 0; x < shapes.length; x++){
     console.log(shapes[x]);
   }
