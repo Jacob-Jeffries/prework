@@ -2,6 +2,8 @@ var shape = "circle";
 var topics ="HTML, CSS, Git, JavaScript";
 console.log(topics);
 
+var shapes = ["tirangle", "square", "pentagon", "circle"];
+
 var topic = "HTML";
 
 //Here the topic variable is a string so we are comparing it to a string in the if statement, no type coercion is needed so we use ===
