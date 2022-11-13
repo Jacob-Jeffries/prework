@@ -3,6 +3,8 @@ var topics ="HTML, CSS, Git, JavaScript";
 console.log(topics);
 
 var shapes = ["tirangle", "square", "pentagon", "circle"];
+var studentInfo = ["Lu", 54, true];
+
 
 var topic = "HTML";
 
