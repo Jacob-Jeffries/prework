@@ -10,6 +10,7 @@ var topic = "HTML";
 
 //Here the topic variable is a string so we are comparing it to a string in the if statement, no type coercion is needed so we use ===
 
+/*
 if (topic === 'HTML') {
     console.log("Let's study HTML!");
   } else if (topic === 'CSS') {
@@ -32,4 +33,4 @@ if (topic === 'HTML') {
   for(var x = 0; x < shapes.length; x++){
     console.log(shapes[x]);
   }
-
+*/
