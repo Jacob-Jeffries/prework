@@ -1,5 +1,5 @@
 var shape = "circle";
-var topics ="HTML, CSS, Git, JavaScript";
+var topics =["HTML", "CSS", "Git", "JavaScript"];
 console.log(topics);
 
 var shapes = ["tirangle", "square", "pentagon", "circle"];
@@ -7,6 +7,10 @@ var studentInfo = ["Lu", 54, true];
 
 
 var topic = "HTML";
+
+for(var x = 0; x < topics.length; x++) {
+    console.log(topics[x]);
+   }
 
 //Here the topic variable is a string so we are comparing it to a string in the if statement, no type coercion is needed so we use ===
 
