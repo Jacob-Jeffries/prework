@@ -22,14 +22,8 @@ This is an easy to use webiste that mainly contains static text.
 
 If you open the DevTools and click on CONSOLE, the JS script can be seen running in the background.
 
-<<<<<<< HEAD
-```md
 ![Alt text](./assets/images/prework-site.jpg)
-```
-=======
-![Alt text](assets/images/prework-site.jpg)
 
->>>>>>> 36943327311a7442bec230dfd07177d3f7402382
 ## Credits
 Jacob Jeffries
 
