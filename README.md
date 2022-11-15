@@ -15,7 +15,11 @@ Through the course of programing this wesite, I learned the Git workflow and cre
 [Badges](#badges)
 
 ## Instalation
+
+https://jacob-jeffries.github.io/prework/
+
 This is a hosted website and does not require any installion other than a internet browser. I recommend Mozilla Firefox, since Google Chrome is stealing your data!
+
 
 ## Usage
 This is an easy to use webiste that mainly contains static text. 
